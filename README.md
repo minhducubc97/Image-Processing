@@ -7,20 +7,20 @@ As for the required library, I use a mixture of OpenCV, Scipy and PIL
 Below are the list of methods that deblur/blur, add/remove noise from images that I have done research on:
 
 1) Deblurring (The methods below don't not require a specific kernel to deblur, all one has to do is to adjust the key variable to get a desired effect):
-a) ImageEnhance
-b) Richard-Lucy 
-c) Wiener
-d) High pass filter (built-in function)
-e) High pass filter with Fourier transform
-f) Unsharp [This one for me gives the best result]
+- ImageEnhance
+- Richard-Lucy 
+- Wiener
+- High pass filter (built-in function)
+- High pass filter with Fourier transform
+- Unsharp [This one for me gives the best result]
   
 2) Denoising:
-a) fastNlMeansDenoisingColored (OpenCV built-in function)
-b) Customized denoise function [This one for me gives the best result]
+- fastNlMeansDenoisingColored (OpenCV built-in function)
+- Customized denoise function [This one for me gives the best result]
   
 3) Adding noise:
-a) Random noise
+- Random noise
   
 3) Deblurring/Blurring with a specific kernel:
-a) Gaussian kernel
-b) Motion kernel
+- Gaussian kernel
+- Motion kernel
