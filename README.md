@@ -10,7 +10,7 @@ Below are the list of methods that deblur/blur, add/remove noise from images tha
 - ImageEnhance
 - Richard-Lucy 
 - Wiener
-- High pass filter (built-in function)
+- Gaussian High pass filter (built-in function)
 - High pass filter with Fourier transform
 - Unsharp [This one for me gives the best result]
   
