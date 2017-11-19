@@ -1,10 +1,10 @@
 # Deblurring-Blurring-AddingNoise
 
-As part of my work for UBC Orbit Payload Team, I have to do research on deblurring/blurring, adding/removing noise from images and program them in Python. The eventual goal is to get a clear image from the camera installed on our design team satelitte.
+As part of my work for UBC Orbit Payload Team, I have to do research on deblurring/blurring, adding/removing noise, detect blur from images and process them in Python. The eventual goal is to get a clear image from a moving camera installed on our design team satelitte.
 
 As for the required library, I use a mixture of OpenCV, Scipy and PIL
 
-Below are the list of methods that deblur/blur, add/remove noise from images that I have done research on:
+Below are the list of image processing methods that I have done research on and implemented successfully:
 
 1) Deblurring (The methods below don't not require a specific kernel to deblur, all one has to do is to adjust the key variable to get a desired effect):
 - ImageEnhance
@@ -24,3 +24,6 @@ Below are the list of methods that deblur/blur, add/remove noise from images tha
 3) Deblurring/Blurring with a specific kernel:
 - Gaussian kernel
 - Motion kernel
+
+4) Detecting blur:
+- OpenCV Laplacian variance
