@@ -1,4 +1,4 @@
-# Deblurring-Blurring-AddingNoise
+# Image Processing
 
 As part of my work for UBC Orbit Payload Team, I have to do research on deblurring/blurring, adding/removing noise, detect blur from images and process them in Python. The eventual goal is to get a clear image from a moving camera installed on our design team satelitte.
 
