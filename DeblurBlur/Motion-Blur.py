@@ -48,6 +48,7 @@ image = imread("trial_earth.jpg", flatten=True)
 
 # generating the kernel
 kernel = LineKernel(7, 180, 'right')
+imsave('Original_kernel.jpg', kernel)
 
 # Pad kernel (make the kernel has the same shape as the image)
 l = np.zeros_like(image)
