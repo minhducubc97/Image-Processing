@@ -1,8 +1,10 @@
 # import the necessary packages
 from imutils import paths
+# This is a customized library by https://www.pyimagesearch.com/
 import argparse
 # The argparse module makes it easy to write user-friendly command-line interfaces. The program
 # defines what arguments it requires, and argparse will figure out how to parse those out of sys.argv. 
+# In this code, I don't use this, but you are welcome to implement it
 import cv2
 
 # define threshold
